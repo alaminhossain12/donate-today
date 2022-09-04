@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.top-banner {
+  background-image: url(../images/donation14.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 669px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-size: 65px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.header-paragarph {
+  font-size: 24px;
+  color: #707070;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header-button {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #ff5959;
+  color: #fff;
+  padding: 13px 10px;
+  border-radius: 6px;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+/* Donate Today */
+.donate {
+  font-size: 45px;
+  color: #121212;
+  text-align: center;
+}
+
+.donate-paragraph {
+  font-size: 16px;
+  color: #121212;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Balance */
+.donate-balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.balance {
+  margin-right: 40px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+#balance-highlight {
+  background-color: #ffd8d8;
+  border: 1px solid red;
+}
+
+.amount {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+
+.horizontal {
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+}
+
+.link {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.donate-button {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #ff5959;
+  color: #fff;
+  padding: 14px 10px;
+  border-radius: 6px;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.section-title {
+  font-size: 45px;
+  color: #121212;
+}
+
+.title {
+  font-size: 45px;
+  color: #121212;
+}
+
+.title-input {
+  font-size: 45px;
+  color: #121212;
+  text-align: center;
+}
+
+.section {
+  font-size: 45px;
+  color: #121212;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 17px;
+  margin-top: 18px;
+  color: #121212;
+  text-align: center;
+}
+
+.para {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #707070;
+  line-height: 28px;
+  margin-bottom: 26px;
+}
+
+.paragarph {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #707070;
+  line-height: 28px;
+  margin-bottom: 26px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-color: #ff5959;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 15px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.half-width img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff4d6;
+  padding: 100px;
+}
+
+.width-design input {
+  height: 40px;
+  padding-left: 10px;
+}
+
+.button {
+  padding-right: 30px;
+  color: white;
+  background-color: #ff5959;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/* Experiencces Area  */
+.experinces-area {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+}
+
+.family-title {
+  margin-top: 20px;
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.family-para {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.experinces-area .half-width img {
+  width: 58px;
+  height: 44px;
+}
+/* Footer Section */
+.footer {
+  height: 177px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.orange {
+  color: #ff5959;
+  font-size: 36px;
+}
+
+.white {
+  color: #d9dbe1;
+  font-size: 14px;
+  margin-top: 14px;
+}
